@@ -1,0 +1,20 @@
+{
+  "name": "alice",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "author": "Olanrewaju A. Olaboye",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm bot.js",
+    "start:dev": "nodemon -r esm bot.js"
+  },
+  "private": true,
+  "dependencies": {
+    "@open-wa/wa-automate": "^1.8.77",
+    "cloudinary": "^1.21.0",
+    "esm": "^3.2.25"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
